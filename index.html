@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="Style.css" type="text/css">
 </head>
 <body>
-    <div class="topnav">
-        <a class="active" href="javascript:void(0)">Home</a>
-        <a href="javascript:void(0)">Skills</a>
-        <a href="javascript:void(0)">Portfolio</a>
-        <a href="javascript:void(0)">About</a>
-        <a href="javascript:void(0)">Contact</a>
+    <div id="topnav">
+        <a class="active" href="NavBar.js">Home</a>
+        <a href="NavBar.js">Skills</a>
+        <a href="NavBar.js">Portfolio</a>
+        <a href="NavBar.js">About</a>
+        <a href="NavBar.js">Contact</a>
         
     </div>
 
@@ -27,20 +27,6 @@
         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
     </div>
 
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-    </script>
 
 </body>
 </html>

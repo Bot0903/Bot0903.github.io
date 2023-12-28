@@ -11,6 +11,7 @@ body {
 
 /* style for each section*/
 #home, #skills, #portfolio, #about, #contact {
+  padding: auto;
   height: 700px;
 }
 
@@ -32,18 +33,42 @@ body {
 
 #skills{
   background-color: rebeccapurple;
+  min-height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #portfolio{
   background-color: aquamarine;
+  min-height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about{
   background-color: silver;
+  min-height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #contact{
   background-color: yellow;
+  min-height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 

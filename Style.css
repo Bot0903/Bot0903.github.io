@@ -17,7 +17,6 @@ body {
 
 #home{
   background-color: #04AA6D;
-  min-height: 100%;
 
   background-attachment: fixed;
   background-position: center;
@@ -32,8 +31,7 @@ body {
 
 #skills{
   background-color: rebeccapurple;
-  min-height: 100%;
-
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,8 +40,7 @@ body {
 
 #portfolio{
   background-color: aquamarine;
-  min-height: 100%;
-
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,8 +49,7 @@ body {
 
 #about{
   background-color: silver;
-  min-height: 100%;
-
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,8 +58,7 @@ body {
 
 #contact{
   background-color: yellow;
-  min-height: 100%;
-
+  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

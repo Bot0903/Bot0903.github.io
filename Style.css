@@ -11,7 +11,7 @@ body {
 
 /* style for each section*/
 #home, #skills, #portfolio, #about, #contact {
-  padding: auto;
+  padding: 50%;
   height: 700px;
 }
 
@@ -28,7 +28,6 @@ body {
 #home div{
   margin: auto;
   width: auto;
-  padding: 10px;
 }
 
 #skills{

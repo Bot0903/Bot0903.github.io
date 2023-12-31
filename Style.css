@@ -11,8 +11,7 @@ body {
 
 /* style for each section*/
 #home, #skills, #portfolio, #about, #contact {
-  padding: 50%;
-  height: 700px;
+  min-height: 100%;
 }
 
 #home{

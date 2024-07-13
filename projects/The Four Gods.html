@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hao Pan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/assets/css/modal.css"/>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt style5">
+						<a href="/index.html" class="logo"><strong>Portfolio</strong> <span>Hao Pan</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/landing.html">Landing</a></li>
+							<li><a href="/generic.html">Generic</a></li>
+							<li><a href="/elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style5">
+						<div class="inner">
+							<span class="image">
+								<img src="/images/Gods.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>The Four Gods</h1>
+							</header>
+							<div class="content">
+								<p>This web based game was one of the first games that I made when learning JavaScript. Its art design was mostly an afterthought thus the crazy colours and marquee text. The main feature of this game was the use of java script to create a grid map that is fully traversable and an inventory system that can add and remove items. </p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Notable elements of this project</h2>
+									</header>
+									<p>
+										- Grid Map <br>
+										- Inventory / Items
+										</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<video class="myVideo" id="myVideo1" controls width="606" alt="1" data-position="25% 25%">
+										<source src="/images/The Four God/Map.mp4" type="video/mp4" />
+									</video>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Grid Map</h3>
+											</header>
+											<p>The grid map is done through a nested array creating a 3x3 grid with an extra space on the bottom, making this map a total of 10 traversable spaces. Each map space has its own flavour text and intractable element which is stored in a switch case and checked for if the player chooses to interact.</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<video class="myVideo" id="myVideo2" controls width="606" alt="2" data-position="25% 25%">
+										<source src="/images/The Four God/Items.mp4" type="video/mp4" />
+									</video>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Inventory / Items</h3>
+											</header>
+											<p>The inventory for this game is quite simplistic using an string array to store item names, then using push and splice to add and remove items respectively. This game of course has items that can be dropped and picked up. In order to be able to have items sit on spaces of the map a second nested array is set up in tandem with the map array, this array only records the location of items dropped on the ground whether that be from the player dropping something or the game. This way when the game checks where the player is it can also check if there are item(s) on that space and display it.</p>
+										</div>
+									</div>
+								</section>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="mailto:haopan7@icloud.com">Haopan7@icloud.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>+1(226) 505-0903</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>Currently based out of Waterloo ON, Canada</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://github.com/Bot0903" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/yi-hao-pan-10350a159/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/modal.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>

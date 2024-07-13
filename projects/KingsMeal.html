@@ -1,0 +1,226 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hao Pan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="/assets/css/modal.css"/>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt style1">
+						<a href="/index.html" class="logo"><strong>Portfolio</strong> <span>Hao Pan</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/landing.html">Landing</a></li>
+							<li><a href="/generic.html">Generic</a></li>
+							<li><a href="/elements.html">Elements</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style1">
+						<div class="inner">
+							<span class="image">
+								<img src="/images/King's Meal/1.png" alt="" />
+							</span>
+							<header class="major">
+								<h1>King's Meal</h1>
+							</header>
+							<div class="content">
+								<p>
+									This game was made as a part of the Capstone project for the Game Design and Development program.
+									I worked on this project with two other students, I was in charge of coding and gameplay design.
+									I looked to test myself with the coding element of this project and tested new elements that I have not worked with before.
+								</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Notable elements of this project that I worked on:</h2>
+									</header>
+									<p>
+										- Turn based combat system<br>
+										- Two modes: exploration and combat<br>
+										- Player and enemy navigation <br>
+										- Object oriented item inventory system
+
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<video class="myVideo" id="myVideo1" controls width="606" alt="1" data-position="25% 25%">
+										<source src="/images/King's Meal/turn.mp4" type="video/mp4" />
+									</video>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Turn-based Combat</h3>
+											</header>
+											<p>Very early in this project we knew we wanted to make something turn-based. This turn system uses an array to add and remove enemy objects from the turn order when the player encounters and defeats enemies. Both player and enemies have two moves per turn, which in hindsight should have been displayed.</p>
+											<ul class="actions">
+											</ul>
+										</div>
+									</div>
+									
+								</section>
+								<section>
+									<video class="myVideo" id="myVideo2" controls width="606" alt="2" data-position="25% 25%">
+										<source src="/images/King's Meal/states.mp4" type="video/mp4" />
+									</video>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Exploration and Combat</h3>
+											</header>
+											<p>For this game we wanted the ability to roam freely without the limitation of combat movement while not in combat with an enemy. Because of this the turn based system was made with that in mind allowing for there to be two states that the player can be in. This is done by checking the turn-based array for an enemy object if the player is the only one in the array that means there is no combat.</p>
+											<ul class="actions">
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<video class="myVideo" id="myVideo2" controls width="606" alt="3" data-position="25% 25%">
+										<source src="/images/King's Meal/nav.mp4" type="video/mp4" />
+									</video>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Player and Enemy Navigation</h3>
+											</header>
+											<p>Using the nav mesh feature in Unity I was able to create navigation for both the player and the enemies within the game. Using the nav mesh I was able to make preferred paths for the player within the swamp biome as well.</p>
+											<ul class="actions">
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<video class="myVideo" id="myVideo4" controls width="606" alt="4" data-position="25% 25%">
+										<source src="/images/King's Meal/items.mp4" type="video/mp4" />
+									</video>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Object Oriented Items</h3>
+											</header>
+											<p>Object oriented design is something that has become very important within games and so this was my first attempt at using this type of system.</p>
+											<ul class="actions">
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg1" src="/images/King's Meal/2.png" alt="Navigation" /></span></div>
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg2" src="/images/King's Meal/3.png" alt="Combat" /></span></div>
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg3" src="/images/King's Meal/4.png" alt="Plant Enemy" /></span></div>
+										<!-- Break -->
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg4" src="/images/King's Meal/5.png" alt="Desert Biome" /></span></div>
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg5" src="/images/King's Meal/1.png" alt="Main Menu" /></span></div>
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg6" src="/images/King's Meal/6.png" alt="Enemy Approaching Player" /></span></div>
+										<!-- Break -->
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg7" src="/images/King's Meal/7.png" alt="Spell Cast" /></span></div>
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg8" src="/images/King's Meal/8.png" alt="Player Being Attacked" /></span></div>
+										<div class="col-4"><span class="image fit"><img class="myImg" id="myImg9" src="/images/King's Meal/9.png" alt="Cook Station" /></span></div>
+									</div>
+								</div>
+							</section>
+
+						<!-- The Modal -->
+							<div id="myModal" class="modal">
+								<img class="modal-content" id="img01">
+								<div id="caption"></div>
+							</div>
+
+					</div>
+					
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="mailto:haopan7@icloud.com">Haopan7@icloud.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>+1(226) 505-0903</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>Currently based out of Waterloo ON, Canada</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://github.com/Bot0903" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/yi-hao-pan-10350a159/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="/assets/js/jquery.min.js"></script>
+			<script src="/assets/js/jquery.scrolly.min.js"></script>
+			<script src="/assets/js/jquery.scrollex.min.js"></script>
+			<script src="/assets/js/browser.min.js"></script>
+			<script src="/assets/js/breakpoints.min.js"></script>
+			<script src="/assets/js/util.js"></script>
+			<script src="/assets/js/modal.js"></script>
+			<script src="/assets/js/main.js"></script>
+
+	</body>
+</html>
